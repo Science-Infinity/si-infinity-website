@@ -1,0 +1,25 @@
+input.standard {
+  background-color: #f5f5f5;
+  width: 60%;
+  text-align: center;
+}
+form  {
+  display: block;
+  text-align: center;
+}
+textarea  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5f5f5;
+  width: 60%;
+  text-align: center;
+}
+.form-buttons {
+  background-color: #901414;
+  color: white;
+  padding-top: 1em;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+  padding-right: 1.5em;
+}

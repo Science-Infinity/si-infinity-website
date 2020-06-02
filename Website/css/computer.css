@@ -1,0 +1,10 @@
+/*Nav elements to change*/
+/*Flexbox attributes*/
+html  {
+  scroll-behavior: smooth;
+}
+div.section2-general  {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
