@@ -1,0 +1,66 @@
+div.section2-left {
+  color: black;
+  width: 60em;
+  margin-left: 2em;
+  margin-right: auto;
+  display: block;
+}
+div.section2-right {
+  color: black;
+  width: 25em;
+  margin-left: auto;
+  margin-right: 2em;
+  display: block;
+}
+div.section2-general, div.section4-general, div.footer-general  {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+div.section3-right  {
+  color: black;
+  width: 60em;
+  margin-left: auto;
+  margin-right: 2em;
+  display: block;
+  border-left: 0.125em solid black;
+}
+div.section3-left {
+  color: black;
+  width: 60em;
+  margin-left: 2em;
+  margin-right: auto;
+  display: block;
+}
+div.section4-general  {
+  text-align: center;
+}
+div.section4-images {
+  color: black;
+  width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+div.section4-images h1, div.section4-images h3  {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+#section4-sides {
+  background-color: #3AAFA9;
+}
+div.footer-images {
+  width: 25em;
+}
+button  {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 1em;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+  padding-right: 1.5em;
+  background-color: #17252A;
+  color: white;
+  border-radius: 0.5em;
+}

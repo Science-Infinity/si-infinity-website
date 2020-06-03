@@ -7,7 +7,7 @@
 }*/
 /* Style the navigation menu */
 .topnav {
-  background-color: #901414;
+  background-color: #2B7A78;
   overflow: hidden;
 }
 
@@ -30,7 +30,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: black;
+  background-color: #17252A;
   color: white;
 }
 

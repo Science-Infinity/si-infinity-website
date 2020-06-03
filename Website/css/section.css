@@ -1,0 +1,6 @@
+section {
+  background-color: #DEF2F1;
+}
+section.important-bg {
+  background-color: black;
+}

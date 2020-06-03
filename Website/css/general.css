@@ -11,31 +11,25 @@
   background: transparent;
   font-family: 'Poppins', sans-serif;
 }
-div.section2-images {
-  text-align: center;
-  color: black;
-  width: 25em;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-div.section2-general  {
-  justify-content: center;
-  text-align: center;
-}
 .notice {
   text-align: center;
-  color: #901414;
+  color: #ff424f;
   margin-left: 2em;
   margin-right: 2em;
+  background-color: black;
 }
 .heading-sub  {
   text-align: center;
   margin-left: 2em;
   margin-right: 2em;
 }
+.heading-mission  {
+  float: left;
+  margin-left: 2em;
+  margin-right: 2em;
+}
 footer  {
-  background-color: #901414;
+  background-color: #2B7A78;
 }
 footer  p   {
   color: white;
@@ -47,8 +41,10 @@ footer p.top  {
 footer p.bottom {
   padding-bottom: 0.5em;
 }
-.map  {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+body  {
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }

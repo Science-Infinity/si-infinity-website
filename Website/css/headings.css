@@ -11,16 +11,17 @@ h1.title  {
   font-size: 1em;
   font-weight: 200;
 }
-.heading-sub h1 {
+.heading-sub h1, .section2-left h1, .section3-right h1, .section4-images h1 {
   font-size: 2em;
   font-weight: 600;
 }
-.heading-sub h2 {
+
+.heading-sub h3, .section2-left h3, .section4-images h3 {
+  font-size: 1em;
+  font-weight: 200;
+}
+.heading-sub h2, .section2-left h2 {
   font-size: 1.25em;
   font-weight: 300;
   font-style: italic;
-}
-.heading-sub h3 {
-  font-size: 1em;
-  font-weight: 200;
 }

@@ -11,6 +11,7 @@
     <link rel = "stylesheet" href = "../css/section.css"/>
     <link rel = "stylesheet" href = "../css/headings.css"/>
     <link rel = "stylesheet" href = "../css/forms.css"/>
+    <link rel = "stylesheet" href = "../css/flexboxes.css"/>
     <!--Best way to build media queries is set the base case for mobile, then move up-->
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/computer.css"/>
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="../css/computer-large.css"/>
@@ -42,77 +43,110 @@
       </div>
     </section>
     <!--Section 1-->
-    <br/>
-    <br/>
-    <section>
+    <section class = "important-bg">
+      <br/>
       <div class = "notice">
         <h1>Key Notice</h1>
         <h3>In light of the recent COVID-19 pandemic, Science Infinity has
           shifted its classes to online sessions and  is holding
           an online competition!</h3>
       </div>
+      <br/>
     </section>
-    <section>
-      <div class = "heading-sub">
-        <h1>Our Mission</h1>
-        <h2>Empowering Young Minds</h2>
-        <h3>Science Infinity is a High School Volunteer run 501(c)(3) non-profit
-        organization committed to spreading their knowledge to young schoolers (5th grade+) in the
-        fields of Earth Science, Biology, Physics, and Chemistry in order to give
-        them early exposure to the advanced world of science</h3>
+    <section class = "mission">
+      <br/>
+      <div class = "section2-general">
+          <div class = "section2-left">
+            <h1>Our Mission</h1>
+            <h2>Empowering Young Minds</h2>
+            <h3>Science Infinity is a High School Volunteer run 501(c)(3) non-profit
+            organization committed to spreading their knowledge to young schoolers (5th grade+) in the
+            fields of Earth Science, Biology, Physics, and Chemistry in order to give
+            them early exposure to the advanced world of science</h3>
+          </div>
+          <div class = "section2-right">
+            <img src = "../images/mission-img.PNG" class = "mission-img"/>
+          </div>
       </div>
+      <br/>
     </section>
     <section>
-      <div class = "heading-sub">
-        <h1>Outreach</h1>
-        <h3>One of our goals here at Science Infinity is not only to provide education
+      <div class = "section4-general">
+        <div class = "section4-images" id = "section4-sides">
+          <br/>
+          <h1>Outreach</h1>
+          <h3>One of our goals here at Science Infinity is not only to provide education
           to Seattle-based students, but to provide education around the US and
           education related aid to the underprivileged and needy around the world.
           If you are a High School Student who has an affinity for Math & Science,
           and are interested in the opportunity of starting your own branch,
           click below to read more.</h3>
-      </div>
-    </section>
-      <br/>
-      <div class = "heading-sub">
-        <h1>Sign Up</h1>
-        <h3>Join us and we will help you achieve success</h3>
-      </div>
-      <br/>
-      <div class = "heading-sub">
-        <h1>Volunteer</h1>
-        <h3>Our Volunteers are the key to our Success. Without our volunteers we wouldn't be able to run any
-        of this, and they work really hard to run the club and teach your
-        kids the science they have come to love.</h3>
-      </div>
-    <section id = "contact">
-      <h1 class = "title">Contact Us</h1>
-      <!--Form-->
-      <form id = "contact-form">
-        <div class = "data">
-          <label for = "fname">First name:</label><br/>
-          <input class = "standard" type = "text" id = "fname"><br/>
-          <label for = "lname">Last name:</label><br/>
-          <input class = "standard" type = "text" id = "lname"><br/>
-          <label for= "email">Email:</label><br/>
-          <input class = "standard" type = "text" id = "email"><br/>
-          <label for = "comments">Comments:</label><br/>
-          <textarea id = "comments" name="comment" form = "contact-form" rows="8">
-          </textarea>
+          <br/>
+          <button onclick = "window.location.href = '';"
+          type = "button">Outreach</button>
           <br/>
         </div>
-        <div class = "button">
-          <input class = "form-buttons" type = "button" id = "subscribe" value = "Send"/>
-          <input class = "form-buttons" type = "button" id = "reset" value = "Reset"/>
+        <div class = "section4-images">
+          <br/>
+          <h1>Sign Up</h1>
+          <h3>Join us and we will help you achieve success</h3>
+          <br/>
+          <button onclick = "window.location.href = '';"
+          type = "button">Sign Up</button>
+          <br/>
         </div>
-      </form>
+        <div class = "section4-images" id = "section4-sides">
+          <br/>
+          <h1>Volunteer</h1>
+          <h3>Our Volunteers are the key to our Success. Without our volunteers we wouldn't be able to run any
+          of this, and they work really hard to run the club and teach your
+          kids the science they have come to love.</h3>
+          <br/>
+          <button onclick = "window.location.href = '';"
+          type = "button">Volunteer</button>
+          <br/>
+        </div>
+      </div>
+    </section>
+    <section id = "contact">
+      <br/>
+      <div class = "section2-general">
+        <div class = "section3-left">
+          <body onload="displayMap()">
+          <div class = "map" id="map_canvas" style="width: 80%; height:480px;" > </div>
+        </div>
+        <div class = "section3-right">
+          <!--Form-->
+          <form id = "contact-form">
+            <h1>Contact Us</h1>
+            <div class = "data">
+              <label for = "fname">First name:</label><br/>
+              <input class = "standard" type = "text" id = "fname"><br/>
+              <label for = "lname">Last name:</label><br/>
+              <input class = "standard" type = "text" id = "lname"><br/>
+              <label for= "email">Email:</label><br/>
+              <input class = "standard" type = "text" id = "email"><br/>
+              <label for = "comments">Comments:</label><br/>
+              <textarea id = "comments" name="comment" form = "contact-form" rows="8">
+              </textarea>
+              <br/>
+            </div>
+            <div class = "button">
+              <input class = "form-buttons" type = "button" id = "subscribe" value = "Send"/>
+              <input class = "form-buttons" type = "button" id = "reset" value = "Reset"/>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br/>
     </section>
     <br/>
     <!--Note need an api key for this to work right!-->
-    <body onload="displayMap()">
-    <div class = "map" id="map_canvas" style="width: 640px; height:480px;" > </div>
     <!--Footer-->
     <footer>
+      <div class = "footer-general">
+        <div class = "footer-images">
+    <!--To do: create the four column layout seen on the current website-->
       <p class = "top">Science Infinity is a 501(c)(3) nonprofit organization</p>
       <p class = "bottom">Copyright &copy; 2020 Science Infinity. All Rights Reserved</p>
     </footer>
