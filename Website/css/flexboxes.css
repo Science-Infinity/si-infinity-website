@@ -41,8 +41,13 @@
 .flexbox3col {
   color: black;
   width: 25em;
+<<<<<<< HEAD
   margin-left: 0;
   margin-right: 0;
+=======
+  margin-left: 1em;
+  margin-right: 1em;
+>>>>>>> abe0515eae638e9bfbbfe8152ade3861661e43b6
   display: block;
   background-color: #2B7A78;
 }
