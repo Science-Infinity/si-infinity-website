@@ -38,9 +38,10 @@ div.section4-general  {
 div.section4-images {
   color: black;
   width: 25em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1em;
+  margin-right: 1em;
   display: block;
+  background-color: #2B7A78;
 }
 div.section4-images h1, div.section4-images h3  {
   margin-left: 0.5em;
