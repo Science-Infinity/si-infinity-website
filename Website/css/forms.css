@@ -9,7 +9,7 @@ textarea  {
   width: 90%;
   border: 0.125em solid black;
 }
-.form-buttons {
+.form-button-left, .form-button-right {
   background-color: #17252A;
   color: white;
   padding-top: 1em;
@@ -17,4 +17,11 @@ textarea  {
   padding-bottom: 1em;
   padding-right: 1.5em;
   border-radius: 0.5em;
+  margin-top: 0.25em;
+}
+.form-button-right {
+  margin-left: 2em;
+}
+form {
+  margin-left: 2em;
 }

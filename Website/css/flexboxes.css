@@ -1,23 +1,26 @@
-div.section2-left {
+.flexbox2col-left {
   color: black;
   width: 60em;
   margin-left: 2em;
   margin-right: auto;
   display: block;
 }
-div.section2-right {
+.flexbox2col-right {
   color: black;
   width: 25em;
   margin-left: auto;
   margin-right: 2em;
   display: block;
 }
-div.section2-general, div.section4-general, div.footer-general  {
+.flexbox-wrapper2, .flexbox-wrapper4, .flexbox-footer-wrapper  {
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
-div.section3-right  {
+.flexbox-wrapper4 {
+  flex-wrap: wrap;
+}
+.flexbox2col-rightv2  {
   color: black;
   width: 60em;
   margin-left: auto;
@@ -25,34 +28,37 @@ div.section3-right  {
   display: block;
   border-left: 0.125em solid black;
 }
-div.section3-left {
+.flexbox2col-leftv2 {
   color: black;
   width: 60em;
   margin-left: 2em;
   margin-right: auto;
   display: block;
 }
-div.section4-general  {
+.flexbox-wrapper4  {
   text-align: center;
 }
-div.section4-images {
+.flexbox3col {
   color: black;
   width: 25em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
   display: block;
+  background-color: #2B7A78;
 }
-div.section4-images h1, div.section4-images h3  {
+.flexbox3col h1, .flexbox3col h3  {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 #section4-sides {
   background-color: #3AAFA9;
 }
-div.footer-images {
+.footer-box {
   width: 25em;
+  color: white;
+  text-align: center;
 }
-button  {
+.flexbox-wrapper4 button  {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -63,4 +69,6 @@ button  {
   background-color: #17252A;
   color: white;
   border-radius: 0.5em;
+  margin-bottom: 1em;
+
 }

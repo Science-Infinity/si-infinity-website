@@ -12,6 +12,7 @@
     <link rel = "stylesheet" href = "../css/headings.css"/>
     <link rel = "stylesheet" href = "../css/forms.css"/>
     <link rel = "stylesheet" href = "../css/flexboxes.css"/>
+    <link rel = "stylesheet" href = "../css/footer.css"/>
     <!--Best way to build media queries is set the base case for mobile, then move up-->
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/computer.css"/>
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="../css/computer-large.css"/>
@@ -33,12 +34,12 @@
         <a href="#Academics">Academics</a>
         <a href="#Programs">Programs</a>
         <a href="#Chapters">Chapters</a>
-        <a href="#Volunteers">Volunteers</a>
         <a href="#Charity">Charity</a>
-        <a href="#Competitions">Competitions</a>
+        <a href="#Competitions">Blog</a>
         <a href="#Contact">Contact Us</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
+        <p>For the Students, By the Students</p>
         </a>
       </div>
     </section>
@@ -55,67 +56,79 @@
     </section>
     <section class = "mission">
       <br/>
-      <div class = "section2-general">
-          <div class = "section2-left">
+      <div class = "flexbox-wrapper2">
+          <div class = "flexbox2col-left">
             <h1>Our Mission</h1>
             <h2>Empowering Young Minds</h2>
             <h3>Science Infinity is a High School Volunteer run 501(c)(3) non-profit
-            organization committed to spreading their knowledge to young schoolers (5th grade+) in the
-            fields of Earth Science, Biology, Physics, and Chemistry in order to give
-            them early exposure to the advanced world of science</h3>
+              organization committed to spreading their knowledge to young schoolers
+              (5th grade+) in the fields of Earth Science, Biology, Physics,
+              and Chemistry in order to give them early exposure to the advanced sciences. 
+              The funds raised from donations are used to fund various educational
+              programs closer to home and around the world. Special funds are
+              set aside to help underprivileged students.</h3>
+              <div class = "button">
+                <input class = "form-button-left" type = "button" value = "Sign Up"/>
+                <input class = "form-button-right" type = "button" value = "Learn More"/>
+              </div>
           </div>
-          <div class = "section2-right">
+          <div class = "flexbox2col-right">
             <img src = "../images/mission-img.PNG" class = "mission-img"/>
           </div>
       </div>
       <br/>
     </section>
     <section>
-      <div class = "section4-general">
-        <div class = "section4-images" id = "section4-sides">
+      <div class = "flexbox-wrapper4">
+        <div class = "flexbox3col" id = "section4-sides">
           <br/>
           <h1>Outreach</h1>
-          <h3>One of our goals here at Science Infinity is not only to provide education
-          to Seattle-based students, but to provide education around the US and
-          education related aid to the underprivileged and needy around the world.
-          If you are a High School Student who has an affinity for Math & Science,
-          and are interested in the opportunity of starting your own branch,
-          click below to read more.</h3>
-          <br/>
-          <button onclick = "window.location.href = '';"
-          type = "button">Outreach</button>
-          <br/>
+          <h3>One of our goals here at Science Infinity is not only to provide
+            education to Seattle-based students, but to provide education around
+            the US and education related aid to the underprivileged and needy
+            around the world. If you are a High School Student who has an affinity
+            for Math & Science, and are interested in the opportunity of starting
+            your own branch, click below to read more.</h3>
         </div>
-        <div class = "section4-images">
-          <br/>
-          <h1>Sign Up</h1>
-          <h3>Join us and we will help you achieve success</h3>
-          <br/>
-          <button onclick = "window.location.href = '';"
-          type = "button">Sign Up</button>
-          <br/>
-        </div>
-        <div class = "section4-images" id = "section4-sides">
+        <div class = "flexbox3col">
           <br/>
           <h1>Volunteer</h1>
-          <h3>Our Volunteers are the key to our Success. Without our volunteers we wouldn't be able to run any
-          of this, and they work really hard to run the club and teach your
-          kids the science they have come to love.</h3>
+          <h3>Our Volunteers are the key to our Success. Without our volunteers
+            we wouldn't be able to run any of this, and they work really hard to
+            run the club and teach your kids the science they have come to love.</h3>
+        </div>
+        <div class = "flexbox3col" id = "section4-sides">
           <br/>
+          <h1>Academics</h1>
+          <h3>We offer testing and private tutoring in Earth Science, Biology,
+             Chemistry, and Physics, so that your student can develop a love for
+             these subjects and grow and learn in them. Click below to see our
+             classes and what is taught in each of them.</h3>
+        </div>
+      </div>
+      <div class = "flexbox-wrapper4">
+        <div class = "flexbox3col" id = "section4-sides">
           <button onclick = "window.location.href = '';"
-          type = "button">Volunteer</button>
-          <br/>
+          type = "button">Get Involved</button>
+        </div>
+        <div class = "flexbox3col">
+          <button onclick = "window.location.href = '';"
+          type = "button">Our Volunteers</button>
+        </div>
+        <div class = "flexbox3col" id = "section4-sides">
+          <button onclick = "window.location.href = '';"
+          type = "button">Subjects</button>
         </div>
       </div>
     </section>
     <section id = "contact">
       <br/>
-      <div class = "section2-general">
-        <div class = "section3-left">
+      <div class = "flexbox-wrapper2">
+        <div class = "flexbox2col-leftv2">
           <body onload="displayMap()">
           <div class = "map" id="map_canvas" style="width: 80%; height:480px;" > </div>
         </div>
-        <div class = "section3-right">
+        <div class = "flexbox2col-rightv2">
           <!--Form-->
           <form id = "contact-form">
             <h1>Contact Us</h1>
@@ -132,20 +145,45 @@
               <br/>
             </div>
             <div class = "button">
-              <input class = "form-buttons" type = "button" id = "subscribe" value = "Send"/>
-              <input class = "form-buttons" type = "button" id = "reset" value = "Reset"/>
+              <input class = "form-button-left" type = "button" id = "subscribe" value = "Send"/>
+              <input class = "form-button-right" type = "button" id = "reset" value = "Reset"/>
             </div>
           </form>
         </div>
       </div>
       <br/>
     </section>
-    <br/>
     <!--Note need an api key for this to work right!-->
     <!--Footer-->
     <footer>
-      <div class = "footer-general">
-        <div class = "footer-images">
+      <img src = "logo.png"/>
+      <div class = "flexbox-footer-wrapper">
+        <div class = "footer-box">
+          <h3>Location</h3>
+          <h3>Schedule</h3>
+          <h3>Facebook</h3>
+          <h3>Email</h3>
+        </div>
+        <div class = "footer-box">
+          <h3>Seattle</h3>
+          <h3>Schedule</h3>
+          <h3>Facebook</h3>
+          <h3>Email</h3>
+        </div>
+        <div class = "footer-box">
+          <h3>SF Bay Area</h3>
+          <h3>Schedule</h3>
+          <h3>Facebook</h3>
+          <h3>Email</h3>
+        </div>
+        <div class = "footer-box">
+          <h3>Kansas City</h3>
+          <h3>Schedule</h3>
+          <h3>Facebook</h3>
+          <h3>Email</h3>
+        </div>
+      </div>
+      <br/>
     <!--To do: create the four column layout seen on the current website-->
       <p class = "top">Science Infinity is a 501(c)(3) nonprofit organization</p>
       <p class = "bottom">Copyright &copy; 2020 Science Infinity. All Rights Reserved</p>
