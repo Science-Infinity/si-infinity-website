@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+  <head>
+    <title>Home</title>
+    <!--CSS Links-->
+    <!--Icon Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Own CSS-->
+    <link rel = "stylesheet" href = "../css/general.css"/>
+    <link rel = "stylesheet" href = "../css/navbar.css"/>
+    <link rel = "stylesheet" href = "../css/images.css"/>
+    <link rel = "stylesheet" href = "../css/section.css"/>
+    <link rel = "stylesheet" href = "../css/headings.css"/>
+    <link rel = "stylesheet" href = "../css/forms.css"/>
+    <link rel = "stylesheet" href = "../css/flexboxes.css"/>
+    <link rel = "stylesheet" href = "../css/footer.css"/>
+    <!--Best way to build media queries is set the base case for mobile, then move up-->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/computer.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="../css/computer-large.css"/>
+		<!--<link rel="stylesheet" type="text/css" media="only screen and (max-width:600px)" href="../css/tablet.css"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Javascript code-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src = "../javascript/forms.js"></script>
+    <script src = "../javascript/scrolling.js"></script>
+    <script src = "../javascript/navbar2.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src = "../javascript/geolocation.js"></script>
+  </head>
+  <body>
+    <!--Navbar Structure-->
+    <!--Links to different parts of the page (#s)-->
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light", style="background-color:#2B7A78">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="academics.html">Academics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Programs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Charity</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Chapters
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Seattle Chapter</a>
+          <a class="dropdown-item" href="#">Kansas City Chapter</a>
+          <a class="dropdown-item" href="#">Bay Area Chapter</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Blog</a>
+          <a class="dropdown-item" href="#">Competitions</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    </div>
+    </nav>
+    <!--Section 1-->
+    <section class = "important-bg">
+      <br/>
+      <div class = "notice">
+        <h1>Key Notice</h1>
+        <h3>In light of the recent COVID-19 pandemic, Science Infinity has
+          shifted its classes to online sessions and  is holding
+          an online competition!</h3>
+      </div>
+      <br/>
+    </section>
+    <section class = "mission">
+      <br/>
+      <div class = "flexbox-wrapper2">
+          <div class = "flexbox2col-left">
+            <h1>Our Mission</h1>
+            <h2>Empowering Young Minds</h2>
+            <h3>Science Infinity is a High School Volunteer run 501(c)(3) non-profit
+              organization committed to spreading their knowledge to young schoolers
+              (5th grade+) in the fields of Earth Science, Biology, Physics,
+              and Chemistry in order to give them early exposure to the advanced sciences. 
+              The funds raised from donations are used to fund various educational
+              programs closer to home and around the world. Special funds are
+              set aside to help underprivileged students.</h3>
+              <div class = "button">
+                <input class = "form-button-left" type = "button" value = "Sign Up"/>
+                <input class = "form-button-right" type = "button" value = "Learn More"/>
+              </div>
+          </div>
+          <div class = "flexbox2col-right">
+            <img src = "../images/mission-img.PNG" class = "mission-img"/>
+          </div>
+      </div>
+      <br/>
+    </section>
+    <section>
+      <div class = "flexbox-wrapper4">
+        <div class = "flexbox3col" id = "section4-sides">
+          <br/>
+          <h1>Outreach</h1>
+          <h3>One of our goals here at Science Infinity is not only to provide
+            education to Seattle-based students, but to provide education around
+            the US and education related aid to the underprivileged and needy
+            around the world. If you are a High School Student who has an affinity
+            for Math & Science, and are interested in the opportunity of starting
+            your own branch, click below to read more.</h3>
+        </div>
+        <div class = "flexbox3col">
+          <br/>
+          <h1>Volunteer</h1>
+          <h3>Our Volunteers are the key to our Success. Without our volunteers
+            we wouldn't be able to run any of this, and they work really hard to
+            run the club and teach your kids the science they have come to love.</h3>
+        </div>
+        <div class = "flexbox3col" id = "section4-sides">
+          <br/>
+          <h1>Academics</h1>
+          <h3>We offer testing and private tutoring in Earth Science, Biology,
+             Chemistry, and Physics, so that your student can develop a love for
+             these subjects and grow and learn in them. Click below to see our
+             classes and what is taught in each of them.</h3>
+        </div>
+      </div>
+      <div class = "flexbox-wrapper4">
+        <div class = "flexbox3col" id = "section4-sides">
+          <button onclick = "window.location.href = '';"
+          type = "button">Get Involved</button>
+        </div>
+        <div class = "flexbox3col">
+          <button onclick = "window.location.href = '';"
+          type = "button">Our Volunteers</button>
+        </div>
+        <div class = "flexbox3col" id = "section4-sides">
+          <button onclick = "window.location.href = '';"
+          type = "button">Subjects</button>
+        </div>
+      </div>
+    </section>
+    <section id = "contact">
+      <br/>
+      <div class = "flexbox-wrapper2">
+        <div class = "flexbox2col-leftv2">
+          <body onload="displayMap()">
+          <div class = "map" id="map_canvas" style="width: 80%; height:480px;" > </div>
+        </div>
+        <div class = "flexbox2col-rightv2">
+          <!--Form-->
+          <form id = "contact-form">
+            <h1>Contact Us</h1>
+            <div class = "data">
+              <label for = "fname">First name:</label><br/>
+              <input class = "standard" type = "text" id = "fname"><br/>
+              <label for = "lname">Last name:</label><br/>
+              <input class = "standard" type = "text" id = "lname"><br/>
+              <label for= "email">Email:</label><br/>
+              <input class = "standard" type = "text" id = "email"><br/>
+              <label for = "comments">Comments:</label><br/>
+              <textarea id = "comments" name="comment" form = "contact-form" rows="8">
+              </textarea>
+              <br/>
+            </div>
+            <div class = "button">
+              <input class = "form-button-left" type = "button" id = "subscribe" value = "Send"/>
+              <input class = "form-button-right" type = "button" id = "reset" value = "Reset"/>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br/>
+    </section>
+    <!--Note need an api key for this to work right!-->
+    <!--Footer-->
+    <footer class="page-footer font-small indigo">
+
+      <div class="container text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text mt-3 mb-4">Chapters</h5>
+
+            <ul class="list-unstyled">
+              <button type="button" class="btn btn-outline-dark">Seattle Chapter</button>
+              <br></br>
+              <button type="button" class="btn btn-outline-dark">Kansas City Chapter</button>
+              <br></br>
+              <button type="button" class="btn btn-outline-dark">Bay Area Chapter</button>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text mt-3 mb-4">Emails</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <h6 class="text"><a class="text-my-own-color" href="#">info@scienceinfinity.org</a></h6>
+              </li>
+              <li>
+                <h6 class="text"><a class="text-my-own-color" href="#">bayarea@scienceinfinity.org</a></h6>
+              </li>
+              <li>
+                <h6 class="text"><a class="text-my-own-color" href="#">kansascity@scienceinfinity.org</a></h6>
+              </li>
+              <li>
+                <a href="#!"></a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text mt-3 mb-4">More</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <h4 class="text"><a class="text-my-own-color" href="#">About Us</a></h4>
+              </li>
+              <li>
+                <h4 class="text"><a class="text-my-own-color" href="#">How to Join</a></h4>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none">
+
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+
+            <!-- Links -->
+            <h5 class="font-weight-bold text mt-3 mb-4">How to Participate</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                  <h4 class="text"><a class="text-my-own-color" href="#">Join Classes</a></h4>
+              </li>
+              <li>
+                  <h4 class="text"><a class="text-my-own-color" href="#">Become a Teacher</a></h4>
+              </li>
+              <li>
+                  <h4 class="text"><a class="text-my-own-color" href="#">Create a Chapter</a></h4>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+  </body>
+</html>
