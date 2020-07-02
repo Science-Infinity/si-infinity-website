@@ -4,3 +4,11 @@ section {
 section.important-bg {
   background-color: black;
 }
+section.subject {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  display: block;
+  text-align: center;
+}

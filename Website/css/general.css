@@ -28,36 +28,7 @@
   margin-left: 2em;
   margin-right: 2em;
 }
-footer  {
-  background-color: #2B7A78;
-}
-footer  p   {
-  color: white;
-  text-align: center;
-}
-footer p.top  {
-  padding-top: 0.5em;
-}
-footer p.bottom {
-  padding-bottom: 0.5em;
-}
-body  {
-}
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto;
-}
-footer button {
-  padding: 14px 16px;
-  color: black;
-  border-radius: 0.5em;
-  border: 0.125em solid #17252A;
-}
-footer button:hover {
-  background-color: #17252A;
-  color: white;
-}
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -73,4 +44,10 @@ tbody tr {
 thead tr {
   height: 1.5em;
   font-weight: 200;
+}
+body {
+  background-color: #DEF2F1;
+}
+button: hover {
+  
 }

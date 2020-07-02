@@ -34,20 +34,20 @@
     <!--Links to different parts of the page (#s)-->
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-light", style="background-color:#2B7A78">
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#"><img src = "../images/logo.png"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="academics.html">Academics<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="academics.html">Academics</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Programs</a>
+        <a class="nav-link" href="volunters.html">Volunteers</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Charity</a>
@@ -88,58 +88,56 @@
       </div>
       <br/>
     </section>
-    <section>
-      <div class = "flexbox-wrapper2">
-        <div class = "twoequalcol-flexbox">
-          <h1>Biology</h1>
-          <div class = "button">
-            <input class = "form-button-left" type = "button" value = "Class Notes"/>
-            <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/bio-syll.pdf'"/>
-          </div>
-        </div>
-        <div class = "twoequalcol-flexbox">
-          <h1>Physics</h1>
-          <div class = "button">
-            <input class = "form-button-left" type = "button" value = "Class Notes"/>
-            <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/phys-syll.pdf'"/>
-          </div>
-        </div>
-      </div>
-      <div class = "flexbox-wrapper2">
-        <div class = "twoequalcol-flexbox">
-          <h1>Earth Science</h1>
-          <div class = "button">
-            <input class = "form-button-left" type = "button" value = "Class Notes"/>
-            <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/es-syll.pdf'"/>
-          </div>
-        </div>
-        <div class = "twoequalcol-flexbox">
-          <h1>Chemistry</h1>
-          <div class = "button">
-            <input class = "form-button-left" type = "button" value = "Class Notes"/>
-            <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/chem-syll.pdf'"/>
-          </div>
-        </div>
-      </div>
+    <section class = "subject">
+      <h1>Biology</h1>
+      <p>This course will follow Campbell Biology 9th edition by Campbell and Reece
+      , and will be a condensed version of the subject material taught in AP Biology.
+      Topics covered include biochemistry, cells and processes, evolution, microbiology, botany,
+      zoology, and ecology.</p>
+      <input class = "form-button-left" type = "button" value = "Class Notes"/>
+      <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/bio-syll.pdf'"/>
+    </section>
+    <section class = "subject">
+      <h1>Physics</h1>
+      <p>This class will be a condensed version of the AP Physics 2 syllabus.
+      Topics covered include a brief review of Physics 1 topics, rotational motion, electrostatics, electric
+      circuits, electricity and magnetism, optics, fluids, and thermodynamics.</p>
+      <input class = "form-button-left" type = "button" value = "Class Notes"/>
+      <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/phys-syll.pdf'"/>
+    </section>
+    <section class = "subject">
+      <h1>Earth Science</h1>
+      <p>This class will cover key processes and fundamentals of Earth Science. Topics
+      covered include Geology, Oceanology, Meterology, and Astronomy</p>
+      <input class = "form-button-left" type = "button" value = "Class Notes"/>
+      <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/es-syll.pdf'"/>
+    </section>
+    <section class = "subject">
+      <h1>Chemistry</h1>
+      <p>This class's curriculum is based on the book Chemistry: 10th Edition, by Zumdahl and Zumdahl. Topics
+      covered include Chemical Reactions, Stoichiometry, Nuclear Chemistry, Equilibrium Chemistry,
+      Acids and Buffers, Thermochemistry, the Periodic Table, Bond types, Gas Laws, and Organic Chemistry.</p>
+      <input class = "form-button-left" type = "button" value = "Class Notes"/>
+      <input class = "form-button-right" type = "button" value = "Syllabus" onclick="location.href = '../files/chem-syll.pdf'"/>
     </section>
     <!--Note need an api key for this to work right!-->
     <!--Footer-->
     <footer>
-      <img src = "logo.png"/>
+      <img src = "../images/logo.png"/>
       <table>
         <thead>
           <tr>
             <th>
-              <h3>Chapter Name</h3>
+              <h4>Chapters</h4>
             </th>
             <th>
-              <h3>Email</h3>
+              <h4>Email</h4>
             </th>
             <th>
-              <h3>Team</h3>
+              <h4>Team</h4>
             </th>
             <th>
-              <h3>Facebook</h3>
+              <h4>Facebook</h4>
             </th>
           </tr>
         </thead>
@@ -149,13 +147,13 @@
               <button type = "button" href = "#seattle">Seattle Chapter</button>
             </th>
             <th>
-              <h3>info@scienceinfinity.org</h3>
+              <h2>info@scienceinfinity.org</h2>
             </th>
             <th>
-              <h3>Seattle Team</h3>
+              <h2>Seattle Team</h2>
             </th>
             <th>
-              <h3>Facebook</h3>
+              <h2>Facebook</h2>
             </th>
           </tr>
           <tr>
@@ -163,13 +161,13 @@
               <button type = "button" href = "#bay">Bay Area Chapter</button>
             </th>
             <th>
-              <h3>bayarea@scienceinfinity.org</h3>
+              <h2>bayarea@scienceinfinity.org</h2>
             </th>
             <th>
-              <h3>Kansas Team</h3>
+              <h2>Kansas Team</h2>
             </th>
             <th>
-              <h3>Facebook</h3>
+              <h2>Facebook</h2>
             </th>
           </tr>
           <tr>
@@ -177,13 +175,13 @@
               <button type = "button" href = "#kansas">Kansas City Chapter</button>
             </th>
             <th>
-              <h3>kansascity@scienceinfinity.org</h3>
+              <h2>kansascity@scienceinfinity.org</h2>
             </th>
             <th>
-              <h3>Kansas Team</h3>
+              <h2>Kansas Team</h2>
             </th>
             <th>
-              <h3>Facebook</h3>
+              <h2>Facebook</h2>
             </th>
           </tr>
         </tbody>

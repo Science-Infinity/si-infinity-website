@@ -1,3 +1,8 @@
 img.mission-img {
   float: right;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}

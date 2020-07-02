@@ -1,5 +1,5 @@
 p.top {
-  border-top: 0.125em solid white;
+  border-top: 0.125em solid #17252A;
 }
 footer img {
   display: block;
@@ -9,4 +9,31 @@ footer img {
 .footer-box h3 p {
   color: white;
   text-align: center;
+}
+footer  {
+  background-color: #2B7A78;
+}
+footer  p   {
+  color: black;
+  text-align: center;
+}
+footer p.top  {
+  padding-top: 0.5em;
+}
+footer p.bottom {
+  padding-bottom: 0.5em;
+}
+footer button {
+  padding: 14px 16px;
+  color: black;
+  border-radius: 0.5em;
+  border: 0.125em solid #17252A;
+}
+footer button:hover {
+  background-color: #17252A;
+  color: white;
+}
+footer img {
+  padding-top: 1em;
+  width: 5%;
 }
