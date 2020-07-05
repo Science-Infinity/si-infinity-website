@@ -10,26 +10,29 @@ h1.title  {
   font-weight: 200;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 600;
 }
-h3 {
-  font-size: 1em;
-  font-weight: 200;
-}
 h2 {
-  font-size: 1.6em;
+  font-size: 2.25em;
   font-weight: 300;
   font-style: italic;
 }
+h3 {
+  font-size: 2em;
+  font-weight: 275;
+}
 h4 {
-  font-size: 1.45em;
-  font-weight: 450;
+  font-size: 1.8em;
+  font-weight: 225;
 }
 h5 {
-  margin-top: 0.4em;
-  font-size: 3.50em;
-  font-weight: 1000;
+  font-size: 1.5em;
+  font-weight: 175;
+}
+h6 {
+  font-size: 1.2em;
+  font-weight: 100;
 }
 .heading-sub h2, .flexbox2col-left h2 {
   font-style: italic;

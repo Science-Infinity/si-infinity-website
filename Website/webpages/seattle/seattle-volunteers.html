@@ -1,0 +1,56 @@
+<html>
+<head>
+<style type="text/css">
+html, body {
+	padding:0;
+	margin:0;
+}
+#header {
+	background:#f00;
+}
+#maincontainer {
+	background:#900;
+	margin:0 auto;
+}
+#footercontainer {
+	background:#F00;
+}
+
+/* modern clearfix */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+    line-height:0;
+}
+.cf:after {
+    clear:both;
+}
+
+</style>
+</head>
+<body>
+<div id="header" class="cf">
+    <p>test header content</p>
+    <p>some more content</p>
+</div>
+<div id="maincontainer" class="cf">
+    <div id="containermaininner">
+        <div id="innerleft">
+            <p>some test content</p>
+            <p>some test content</p>
+            <p>some test content</p>
+            <p>some test content</p>
+            <p>some more content</p>
+        </div>
+        <div id="innerright"></div>
+        <div class="clear"></div>
+    </div>
+    <div id="footercontainer" class="cf">
+        <p>test footer content</p>
+        <p>more footer content</p>
+        <p>more footer content</p>
+    </div>
+</div>
+</body>
+</html>

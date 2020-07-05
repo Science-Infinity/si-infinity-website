@@ -37,3 +37,11 @@ footer img {
   padding-top: 1em;
   width: 5%;
 }
+footer:before, footer:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+footer:after {
+  clear: both;
+}

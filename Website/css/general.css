@@ -47,6 +47,7 @@ thead tr {
 }
 body {
   background-color: #DEF2F1;
+  margin: 0;
 }
 .dropdown-item:hover {
   background-color: #2B7A78;
