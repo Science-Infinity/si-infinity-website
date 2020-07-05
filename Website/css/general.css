@@ -48,6 +48,12 @@ thead tr {
 body {
   background-color: #DEF2F1;
 }
-button: hover {
-  
+.dropdown-item:hover {
+  background-color: #2B7A78;
+}
+.member-month {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

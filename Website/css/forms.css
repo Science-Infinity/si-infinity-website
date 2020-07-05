@@ -19,6 +19,9 @@ textarea  {
   border-radius: 0.5em;
   margin-top: 0.25em;
 }
+.form-button-left:hover, .form-button-right:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
 .form-button-right {
   margin-left: 2em;
 }

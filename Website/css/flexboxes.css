@@ -1,15 +1,15 @@
 .flexbox2col-left {
   color: black;
   width: 60em;
-  margin-left: 2em;
-  margin-right: auto;
+  margin-left: 4em;
   display: block;
+  margin-right: 2em;
 }
 .flexbox2col-right {
   color: black;
   width: 25em;
   margin-left: auto;
-  margin-right: 2em;
+  margin-right: 4em;
   display: block;
 }
 .flexbox-wrapper2, .flexbox-wrapper4, .flexbox-footer-wrapper  {
