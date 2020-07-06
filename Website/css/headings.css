@@ -38,3 +38,7 @@ h6 {
   font-style: italic;
   font-size: 1.6em;
 }
+.carousel-caption d-none d-md-block {
+  background-color: gray;
+  opacity: 0.5;
+}

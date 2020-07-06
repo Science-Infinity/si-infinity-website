@@ -58,3 +58,6 @@ body {
   margin-right: auto;
   text-align: center;
 }
+.carousel-control-next, .carousel-control-prev {
+  opacity: 0.7;
+}
