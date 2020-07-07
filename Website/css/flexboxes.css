@@ -17,6 +17,9 @@
   display: flex;
   flex-direction: row;
 }
+.flexbox-footer-wrapper {
+  text-align: center;
+}
 .flexbox-wrapper4 {
   flex-wrap: wrap;
 }
@@ -34,6 +37,23 @@
   margin-left: 2em;
   margin-right: auto;
   display: block;
+}
+.flexbox4col {
+  width: 20%;
+  display: block;
+}
+.flexbox4col a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+.flexbox4col p {
+  font-size: 1em;
+  color: black;
+  margin-bottom: 0em;
+}
+.flexbox4col a:hover {
+  text-decoration: underline;
 }
 .flexbox-wrapper4  {
   text-align: center;
