@@ -3,14 +3,17 @@
   width: 60em;
   margin-left: 4em;
   display: block;
-  margin-right: 2em;
+  margin-right: 4em;
 }
 .flexbox2col-right {
   color: black;
-  width: 25em;
-  margin-left: auto;
+  width: 30em;
+  margin-left: 4em;
   margin-right: 4em;
   display: block;
+}
+.wrapper2col-left {
+  text-align: right;
 }
 .flexbox-wrapper2, .flexbox-wrapper4, .flexbox-footer-wrapper  {
   justify-content: center;
