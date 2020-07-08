@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+  <head>
+    <title>Volunteers</title>
+    <!--CSS Links-->
+    <!--Icon Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Own CSS-->
+    <link rel = "stylesheet" href = "../css/general.css"/>
+    <link rel = "stylesheet" href = "../css/navbar.css"/>
+    <link rel = "stylesheet" href = "../css/images.css"/>
+    <link rel = "stylesheet" href = "../css/section.css"/>
+    <link rel = "stylesheet" href = "../css/headings.css"/>
+    <link rel = "stylesheet" href = "../css/forms.css"/>
+    <link rel = "stylesheet" href = "../css/flexboxes.css"/>
+    <link rel = "stylesheet" href = "../css/footer.css"/>
+    <!--Best way to build media queries is set the base case for mobile, then move up-->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/computer.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="../css/computer-large.css"/>
+		<!--<link rel="stylesheet" type="text/css" media="only screen and (max-width:600px)" href="../css/tablet.css"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Javascript code-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src = "../javascript/forms.js"></script>
+    <script src = "../javascript/scrolling.js"></script>
+    <script src = "../javascript/navbar2.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src = "../javascript/geolocation.js"></script>
+  </head>
+  <body>
+    <!--Navbar Structure-->
+    <!--Links to different parts of the page (#s)-->
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light", style="background-color:#2B7A78">
+    <a class="navbar-brand" href="#"><img src = "../images/logo.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="academics.html">Academics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="volunteers.html">Volunteers</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Chapters
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="">Seattle Chapter</a>
+          <a class="dropdown-item" href="">Kansas City Chapter</a>
+          <a class="dropdown-item" href="">Bay Area Chapter</a>
+        </div>
+      </li>
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Volunteers
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="seattle/seattle-volunteers.html">Seattle Chapter</a>
+          <a class="dropdown-item" href="bay/bay-volunteers.html">Kansas City Chapter</a>
+          <a class="dropdown-item" href="kansas/kansas-volunteers.html">Bay Area Chapter</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="charity.html">Charity</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Blog</a>
+          <a class="dropdown-item" href="#">Competitions</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    </div>
+    </nav>
+    <!--Section 1-->
+    <section class = "important-bg">
+      <br/>
+      <div class = "notice">
+        <h6>Key Notice</h6>
+        <h4>In light of the recent COVID-19 pandemic, Science Infinity has
+          shifted its classes to online sessions and  is holding
+          an online competition!</h4>
+      </div>
+      <br/>
+    </section>
+    <section class = "mission">
+      <br/>
+      <h1><center>Our Volunteers</center></h1>
+      <div class = "flexbox-wrapper2">
+          <div class = "flexbox2col-left">
+            <h2>The Heart of Our Organization</h2>
+            <h7>Science Infinity wouldn't be possible without the help of
+            all the volunteers who make this organization possible. They are
+            committed to teaching students and we appreciate all the hard work
+            that they do!</h7>
+              <div class = "button">
+                <input class = "form-button-left" type = "button" value = "Become a Volunteer"/>
+                <input class = "form-button-right" type = "button" value = "Alumni Volunteers"/>
+              </div>
+          </div>
+          <section class = "slideshow">
+            <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel" style="width: 500px; margin: 0 auto">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="../images/seattle-profiles/Arpit pfp.jpg" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Hey!!!</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../images/seattle-profiles/krish-final.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../images/seattle-profiles/Mukil pfp2.jpeg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../images/seattle-profiles/untitledRonak.png" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../images/seattle-profiles/arnav.jpg" alt="Fifth slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
+      </div>
+      <br/>
+    </section>
+    <section class = "left-oriented">
+      <h3>Seattle Volunteers</h3>
+      <h7>We recruit any volunteers throughout the Eastside of Seattle and surrounding areas.</h7>
+      <div class = "member-month">
+        <br>
+        <h4>Seattle Member of the Month</h4>
+        <img src = "../images/mission-img.PNG">
+        <h6>Daniel Sun</h6>
+        <p>Outstanding volunteer</p>
+      </div>
+      <div class = "button">
+        <input class = "form-button-left" type = "button" value = "Seattle Volunteers"
+        onclick = "window.location.href = 'seattle/seattle-volunteers.html';"/>
+      </div>
+    </section>
+    <section class = "left-oriented">
+      <h3>Bay Area Volunteers</h3>
+      <h7>We recruit any volunteers throughout Bay Area in California.</h7>
+      <div class = "member-month">
+        <br>
+        <h4>Bay Area Member of the Month</h4>
+        <img src = "../images/mission-img.PNG">
+        <h6>Daniel Sun</h6>
+        <p>Outstanding volunteer</p>
+      </div>
+      <div class = "button">
+        <input class = "form-button-left" type = "button" value = "Seattle Volunteers"
+        onclick = "window.location.href = 'seattle/seattle-volunteers.html';"/>
+      </div>
+    </section>
+    <section class = "left-oriented">
+      <h3>Kansas City Volunteers</h3>
+      <h7>We recruit any volunteers throughout Kansas City.</h7>
+      <div class = "member-month">
+        <br>
+        <h4>Kansas City Member of the Month</h4>
+        <img src = "../images/mission-img.PNG">
+        <h6>Daniel Sun</h6>
+        <p>Outstanding volunteer</p>
+      </div>
+      <div class = "button">
+        <input class = "form-button-left" type = "button" value = "Seattle Volunteers"
+        onclick = "window.location.href = 'seattle/seattle-volunteers.html';"/>
+      </div>
+    </section>
+    <!--Note need an api key for this to work right!-->
+    <!--Footer-->
+    <footer>
+      <img src = "images/logo.png"/>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <h6>Chapters</h6>
+            </th>
+            <th>
+              <h6>Email</h6>
+            </th>
+            <th>
+              <h6>Team</h6>
+            </th>
+            <th>
+              <h6>Facebook</h6>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <button type = "button" href = "#seattle">Seattle Chapter</button>
+            </th>
+            <th>
+              <h6>info@scienceinfinity.org</h6>
+            </th>
+            <th>
+              <h6>Seattle Team</h6>
+            </th>
+            <th>
+              <h6>Facebook</h6>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <button type = "button" href = "#bay">Bay Area Chapter</button>
+            </th>
+            <th>
+              <h6>bayarea@scienceinfinity.org</h6>
+            </th>
+            <th>
+              <h6>Kansas Team</h6>
+            </th>
+            <th>
+              <h6>Facebook</h6>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <button type = "button" href = "#kansas">Kansas City Chapter</button>
+            </th>
+            <th>
+              <h6>kansascity@scienceinfinity.org</h6>
+            </th>
+            <th>
+              <h6>Kansas Team</h6>
+            </th>
+            <th>
+              <h6>Facebook</h6>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    <!--To do: create the four column layout seen on the current website-->
+      <p class = "top">Science Infinity is a 501(c)(3) nonprofit organization</p>
+      <p class = "bottom">Copyright &copy; 2020 Science Infinity. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
