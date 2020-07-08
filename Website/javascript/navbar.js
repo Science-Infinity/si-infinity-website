@@ -6,3 +6,16 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+$(document).ready(function() {
+
+  $('.myLinkedDropdown').mouseenter(function() {
+    $(this).addClass('show')
+    $(this).children('.dropdown-menu-wide').addClass('show');
+  });
+
+  $('.myLinkedDropdown').mouseleave(function() {
+    $(this).removeClass('show');
+    $(this).children('.dropdown-menu-wide').removeClass('show');
+  });
+});
