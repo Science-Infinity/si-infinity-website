@@ -11,3 +11,6 @@ nav img {
   transition: text-decoration 10s;
   text-decoration: none;
 }
+.navbar-nav .nav-item a.nav-link {
+  color: #dbdbdb;
+}

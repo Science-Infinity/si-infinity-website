@@ -6,25 +6,22 @@ footer img {
   margin-left: auto;
   margin-right: auto;
 }
-.footer-box h3 p {
-  color: white;
-  text-align: center;
-}
 footer h5 {
-  padding-top: 0.5em;
   font-weight: 250;
 }
 footer  {
   background-color: #2B7A78;
+  color: #dbdbdb;
 }
 footer  p   {
-  color: black;
   text-align: center;
 }
 footer p.top  {
   padding-top: 0.5em;
+  padding-bottom: 0em;
 }
 footer p.bottom {
+  padding-top: 0.2em;
 }
 footer button {
   padding: 14px 16px;
@@ -47,4 +44,12 @@ footer:before, footer:after {
 }
 footer:after {
   clear: both;
+}
+footer .flexbox4col a{
+  color: #dbdbdb;
+}
+footer h4 {
+  font-style: italic;
+  padding-top: 0.5em;
+  color: #17252A;
 }
