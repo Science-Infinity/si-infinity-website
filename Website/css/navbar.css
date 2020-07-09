@@ -1,3 +1,13 @@
 nav img {
   width: 25%;
 }
+.nav-link:hover {
+  text-decoration: underline;
+}
+.dropdown-item:hover {
+  text-decoration: underline;
+}
+.nav-link {
+  transition: text-decoration 10s;
+  text-decoration: none;
+}
