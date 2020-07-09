@@ -43,36 +43,44 @@
       <li class="nav-item">
         <a class="nav-link" href="../home.html">Home</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="academics.html">Academics<span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link" href="volunteers.html">Volunteers</a>
+        <a class="nav-link" href="academics.html">Academics</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Chapters
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="seattle/seattle-chapter.html">Seattle Chapter</a>
+          <a class="dropdown-item" href="bay/bay-chapter.html">Bay Area</a>
+          <a class="dropdown-item" href="kansas/kansas-chapter.html">Kansas City</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="../volunteers.html" id="navbarDropdownMenuLink" data-toggle = "dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Volunteers
+        </a>
+        <div class="dropdown-menu myLinkedDropdown" aria-labelledby="navbarDropdownMenuLink">
+          <a class = "dropdown-item" href = "leadership.html">Leadership Team</a>
+          <a class="dropdown-item" href="seattle/seattle-volunteers.html">Seattle</a>
+          <a class="dropdown-item" href="bay/bay-volunteers.html">Bay Area</a>
+          <a class="dropdown-item" href="kansas/kansas-volunteers.html">Kansas City</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="charity.html">Charity</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Chapters
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="seattle/seattle-volunteers.html">Seattle Chapter</a>
-          <a class="dropdown-item" href="bay/bay-volunteers.html">Kansas City Chapter</a>
-          <a class="dropdown-item" href="kansas/kansas-volunteers.html">Bay Area Chapter</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           More
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Blog</a>
-          <a class="dropdown-item" href="#">Competitions</a>
+          <a class="dropdown-item" href="blog.html">Blog</a>
+          <a class="dropdown-item" href="competitions.html">Competitions</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
     </ul>
     </div>
@@ -173,69 +181,33 @@
     <!--Note need an api key for this to work right!-->
     <!--Footer-->
     <footer>
-      <img src = "images/logo.png"/>
-      <table>
-        <thead>
-          <tr>
-            <th>
-              <h7>Chapters</h7>
-            </th>
-            <th>
-              <h7>Email</h7>
-            </th>
-            <th>
-              <h7>Team</h7>
-            </th>
-            <th>
-              <h7>Facebook</h7>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>
-              <button type = "button" href = "#seattle">Seattle Chapter</button>
-            </th>
-            <th>
-              <h7>info@scienceinfinity.org</h7>
-            </th>
-            <th>
-              <h7>Seattle Team</h7>
-            </th>
-            <th>
-              <h7>Facebook</h7>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <button type = "button" href = "#bay">Bay Area Chapter</button>
-            </th>
-            <th>
-              <h7>bayarea@scienceinfinity.org</h7>
-            </th>
-            <th>
-              <h7>Kansas Team</h7>
-            </th>
-            <th>
-              <h7>Facebook</h7>
-            </th>
-          </tr>
-          <tr>
-            <th>
-              <button type = "button" href = "#kansas">Kansas City Chapter</button>
-            </th>
-            <th>
-              <h7>kansascity@scienceinfinity.org</h7>
-            </th>
-            <th>
-              <h7>Kansas Team</h7>
-            </th>
-            <th>
-              <h7>Facebook</h7>
-            </th>
-          </tr>
-        </tbody>
-      </table>
+      <div class = "flexbox-footer-wrapper">
+        <div class = "flexbox4col">
+          <h5>Chapters</h5>
+          <a href = "seattle/seattle-chapter.html">Seattle Chapter</a><br/>
+          <a href = "bay/bay-chapter.html">Bay Area Chapter</a><br/>
+          <a href = "kansas/kansas-chapter.html">Kansas City Chapter</a>
+        </div>
+        <div class = "flexbox4col">
+          <h5>Email</h5>
+          <a href = "mailto:info@scienceinfinity.org">info@scienceinfinity.org</a>
+          <a href = "mailto:bayarea@scienceinfinity.org">bayarea@scienceinfinity.org</a>
+          <a href = "mailto:kansascity@scienceinfinity.org">kansascity@scienceinfinity.org</a>
+        </div>
+        <div class = "flexbox4col">
+          <h5>Volunteers</h5>
+          <a href = "seattle/seattle-volunteers.html">Seattle Volunteers</a><br/>
+          <a href = "bay/bay-volunteers.html">Bay Area Volunteers</a><br/>
+          <a href = "kansas/kansas-volunteers.html">Kansas City Volunteers</a>
+        </div>
+        <div class = "flexbox4col">
+          <h5>Social Media</h5>
+          <a href = "https://www.facebook.com/groups/scienceinfinity/">Seattle Facebook</a><br/>
+          <a href = "https://www.facebook.com/bayareascience/">Bay Area Facebook</a><br/>
+          <a href = "https://www.facebook.com/groups/scienceinfinity/">Kansas City Facebook</a>
+        </div>
+      </div>
+      <br/>
     <!--To do: create the four column layout seen on the current website-->
       <p class = "top">Science Infinity is a 501(c)(3) nonprofit organization</p>
       <p class = "bottom">Copyright &copy; 2020 Science Infinity. All Rights Reserved</p>

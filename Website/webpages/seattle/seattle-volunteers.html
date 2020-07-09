@@ -25,9 +25,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src = "../../javascript/forms.js"></script>
     <script src = "../../javascript/scrolling.js"></script>
-    <script src = "../../javascript/navbar2.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src = "../../javascript/geolocation.js"></script>
+    <script src = "../../javascript/navbar2.js"></script>
+
   </head>
   <body>
     <!--Navbar Structure-->
@@ -51,19 +52,20 @@
           Chapters
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="seattle-volunteers.html">Seattle Chapter</a>
-          <a class="dropdown-item" href="../bay/bay-volunteers.html">Kansas City Chapter</a>
-          <a class="dropdown-item" href="../kansas/kansas-volunteers.html">Bay Area Chapter</a>
+          <a class="dropdown-item" href="seattle-chapter.html">Seattle Chapter</a>
+          <a class="dropdown-item" href="../bay/bay-chapter.html">Bay Area</a>
+          <a class="dropdown-item" href="../kansas/kansas-chapter.html">Kansas City</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="../volunteers.html" id="navbarDropdownMenuLink" data-toggle = "dropdown" role="button" aria-haspopup="true" aria-expanded="false">
           Volunteers
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Seattle</a>
-          <a class="dropdown-item" href="#">Kansas City</a>
-          <a class="dropdown-item" href="#">Bay Area</a>
+        <div class="dropdown-menu myLinkedDropdown" aria-labelledby="navbarDropdownMenuLink">
+          <a class = "dropdown-item" href = "../leadership.html">Leadership Team</a>
+          <a class="dropdown-item" href="seattle-volunteers.html">Seattle</a>
+          <a class="dropdown-item" href="../bay/bay-volunteers.html">Bay Area</a>
+          <a class="dropdown-item" href="../kansas/kansas-volunteers.html">Kansas City</a>
         </div>
       </li>
       <li class="nav-item">
@@ -74,12 +76,12 @@
           More
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Blog</a>
-          <a class="dropdown-item" href="#">Competitions</a>
+          <a class="dropdown-item" href="../blog.html">Blog</a>
+          <a class="dropdown-item" href="../competitions.html">Competitions</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="../contact.html">Contact Us</a>
       </li>
     </ul>
     </div>
@@ -235,13 +237,12 @@
     <!--Note need an api key for this to work right!-->
     <!--Footer-->
     <footer>
-      <img src = "../../images/logo.png"/><br/>
       <div class = "flexbox-footer-wrapper">
         <div class = "flexbox4col">
           <h5>Chapters</h5>
-          <a href = "">Seattle Chapter</a><br/>
-          <a href = "">Bay Area Chapter</a><br/>
-          <a href = "">Kansas City Chapter</a>
+          <a href = "seattle-chapter.html">Seattle Chapter</a><br/>
+          <a href = "../bay/bay-chapter.html">Bay Area Chapter</a><br/>
+          <a href = "../kansas/kansas-chapter.html">Kansas City Chapter</a>
         </div>
         <div class = "flexbox4col">
           <h5>Email</h5>
@@ -251,15 +252,15 @@
         </div>
         <div class = "flexbox4col">
           <h5>Volunteers</h5>
-          <a href = "">Seattle Volunteers</a><br/>
-          <a href = "">Bay Area Volunteers</a><br/>
-          <a href = "">Kansas City Volunteers</a>
+          <a href = "seattle-volunteers.html">Seattle Volunteers</a><br/>
+          <a href = "../bay/bay-volunteers.html">Bay Area Volunteers</a><br/>
+          <a href = "../kansas/kansas-volunteers.html">Kansas City Volunteers</a>
         </div>
         <div class = "flexbox4col">
           <h5>Social Media</h5>
-          <a href = "">Seattle Facebook</a><br/>
-          <a href = "">Bay Area Facebook</a><br/>
-          <a href = "">Kansas City Facebook</a>
+          <a href = "https://www.facebook.com/groups/scienceinfinity/">Seattle Facebook</a><br/>
+          <a href = "https://www.facebook.com/bayareascience/">Bay Area Facebook</a><br/>
+          <a href = "https://www.facebook.com/groups/scienceinfinity/">Kansas City Facebook</a>
         </div>
       </div>
       <br/>

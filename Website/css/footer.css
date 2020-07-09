@@ -10,6 +10,10 @@ footer img {
   color: white;
   text-align: center;
 }
+footer h5 {
+  padding-top: 0.5em;
+  font-weight: 250;
+}
 footer  {
   background-color: #2B7A78;
 }
@@ -21,7 +25,6 @@ footer p.top  {
   padding-top: 0.5em;
 }
 footer p.bottom {
-  padding-bottom: 0.5em;
 }
 footer button {
   padding: 14px 16px;
