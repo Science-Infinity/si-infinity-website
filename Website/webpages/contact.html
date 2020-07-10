@@ -97,31 +97,12 @@
       </div>
       <br/>
     </section>
-    <section class = "mission">
-      <br/>
-      <h1><center>Contact Us</center></h1>
-      <div class = "flexbox-wrapper2">
-          <div class = "flexbox2col-left">
-            <h2>Best Way to Reach Us</h2>
-            <h7>For any general questions about Science Infinity, starting a chapter,
-            becoming a volunteer, and other related questions please contact
-          <a href = "mailto:info@scienceinfinity.org">info@scienceinfinity.org</a>.
-            If you are a prospective student with questions, please contact
-            your local chapter at the emails below. </a>
-            For more information, please visit our Facebook Groups and join
-            to remain up-to-date on our activities.
-            Thank you for your interest!</h7>
-              <div class = "button">
-                <input class = "form-button-left" type = "button" value = "Become a Volunteer"/>
-                <input class = "form-button-right" type = "button" value = "Alumni Volunteers"/>
-              </div>
-          </div>
-          <div class = "flexbox2col-right">
-            <br><br><br>
-            <img src = "../images/logo.PNG" class = "subject"/>
-          </div>
-      </div>
-      <br/>
+    <section>
+      <form method = "POST" action = "../php/subscribe.php">
+        <p>Name: <input class = "standard" type = "text" name = "Name" size = "20"></p>
+        <p>Email: <input class = "standard" type = "text" name = "Email" size = "20"></p>
+        <p><input type = "submit" value = "Submit" name = "Submit" class = "form-button-left"></p>
+      </form>
     </section>
     <!--Note need an api key for this to work right!-->
     <!--Footer-->
