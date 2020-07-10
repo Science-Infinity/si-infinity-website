@@ -61,6 +61,10 @@
 .flexbox-wrapper4  {
   text-align: center;
 }
+.flexbox3col h7 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
 .flexbox3col {
   color: black;
   width: 33%;
