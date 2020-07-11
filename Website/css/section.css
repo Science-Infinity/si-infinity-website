@@ -14,3 +14,6 @@ section.subject, section.left-oriented {
 section.subject {
   text-align: center;
 }
+section.calendar {
+  text-align: center;
+}
