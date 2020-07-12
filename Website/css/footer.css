@@ -11,7 +11,7 @@ footer h5 {
 }
 footer  {
   background-color: #2B7A78;
-  color: #dbdbdb;
+  color: #17252A;
 }
 footer  p   {
   text-align: center;
@@ -46,10 +46,12 @@ footer:after {
   clear: both;
 }
 footer .flexbox4col a{
-  color: #dbdbdb;
+  color: #17252A;
 }
 footer h4 {
   font-style: italic;
   padding-top: 0.5em;
   color: #17252A;
+  font-size: 1.3em;
+  font-weight: 450;
 }
