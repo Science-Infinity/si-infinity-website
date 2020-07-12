@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+  <head>
+    <title>Academics</title>
+    <!--CSS Links-->
+    <!--Icon Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Own CSS-->
+    <link rel = "stylesheet" href = "../css/general.css"/>
+    <link rel = "stylesheet" href = "../css/navbar.css"/>
+    <link rel = "stylesheet" href = "../css/images.css"/>
+    <link rel = "stylesheet" href = "../css/section.css"/>
+    <link rel = "stylesheet" href = "../css/headings.css"/>
+    <link rel = "stylesheet" href = "../css/forms.css"/>
+    <link rel = "stylesheet" href = "../css/flexboxes.css"/>
+    <link rel = "stylesheet" href = "../css/footer.css"/>
+    <!--Best way to build media queries is set the base case for mobile, then move up-->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/computer.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="../css/computer-large.css"/>
+		<!--<link rel="stylesheet" type="text/css" media="only screen and (max-width:600px)" href="../css/tablet.css"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--Javascript code-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src = "../javascript/forms.js"></script>
+    <script src = "../javascript/scrolling.js"></script>
+    <script src = "../javascript/navbar2.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src = "../javascript/geolocation.js"></script>
+  </head>
+  <body>
+    <!--Navbar Structure-->
+    <!--Links to different parts of the page (#s)-->
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light", style="background-color:#2B7A78">
+    <a class="navbar-brand" href="#"><img src = "../images/logo.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../home.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="academics.html">Academics<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Chapters
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="seattle/seattle-chapter.html">Seattle Chapter</a>
+          <a class="dropdown-item" href="bay/bay-chapter.html">Bay Area</a>
+          <a class="dropdown-item" href="kansas/kansas-chapter.html">Kansas City</a>
+          <a class = "dropdown-item" href = "create-chapter.html">Create a Chapter</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="../volunteers.html" id="navbarDropdownMenuLink" data-toggle = "dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          Volunteers
+        </a>
+        <div class="dropdown-menu myLinkedDropdown" aria-labelledby="navbarDropdownMenuLink">
+          <a class = "dropdown-item" href = "leadership.html">Leadership Team</a>
+          <a class="dropdown-item" href="seattle/seattle-volunteers.html">Seattle</a>
+          <a class="dropdown-item" href="bay/bay-volunteers.html">Bay Area</a>
+          <a class="dropdown-item" href="kansas/kansas-volunteers.html">Kansas City</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="charity.html">Charity</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="blog.html">Blog</a>
+          <a class="dropdown-item" href="competitions.html">Competitions</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+    </div>
+    </nav>
+    <!--Section 1-->
+    <section class = "important-bg">
+      <br/>
+      <div class = "notice">
+        <h6>Key Notice</h6>
+        <h4>In light of the recent COVID-19 pandemic, Science Infinity has
+          shifted its classes to online sessions and  is holding
+          an online competition!</h4>
+      </div>
+      <br/>
+    </section>
+    <section class = "title">
+      <h1><center>Our Classes</center></h1>
+    </section>
+    <br>
+    <section class = "mission">
+      <br>
+      <div class = "flexbox-wrapper2">
+          <div class = "flexbox2col-left">
+            <h2>Biology</h2>
+            <h3>Beginner</h3>
+            <p>To be discussed on Monday </p>
+            <h3>Advanced</h3>
+            <p>This course will follow Campbell Biology 9th edition by Campbell and Reece
+            , and will be a condensed version of the subject material taught in AP Biology
+            as well as the basic high school honors track. This is perfect for students
+            trying to get a head start on high school sciences as well as those just passionate about biology!
+            Topics covered include biochemistry, cells and processes, evolution, microbiology, botany,
+            zoology, and ecology. We will emphasize an interdisciplinary introduction to
+            biology so students are able to connect biology with all the other fields. </p>
+              <div class = "button">
+                <input class = "form-button-left" type = "button" value = "Beginner Syllabus"/>
+                <input class = "form-button-right" type = "button" value = "Advanced Syllabus" onclick="location.href = '../files/bio-syll.pdf'"/>
+              </div>
+          </div>
+          <div class = "flexbox2col-right">
+            <img src = "../images/biology.WEBP" class = "subject"/>
+          </div>
+      </div>
+      <br/>
+    </section>
+    </section>
+    <div class = "flexbox-wrapper2">
+        <div class = "flexbox2col-right">
+          <img src = "../images/earth-science.JPG" class = "subject"/>
+        </div>
+        <div class = "flexbox2col-left">
+          <h2>Earth Science</h2>
+          <h3>Beginner</h3>
+          <p>To be discussed on Monday </p>
+          <h3>Advanced</h3>
+          <p>This class will cover key processes and fundamentals of Earth Science.
+            This course has been taught by previous Earth Science campers and is the
+            perfect course for preparation for USESO. This is a great course for all
+            students and will become hugely important field in the coming years. Topics
+            covered include Geology, Oceanology, Meterology, and Astronomy</p>
+            <div class = "button">
+              <input class = "form-button-left" type = "button" value = "Beginner Syllabus"/>
+              <input class = "form-button-right" type = "button" value = "Advanced Syllabus" onclick="location.href = '../files/phys-syll.pdf'"/>
+            </div>
+        </div>
+    </div>
+    <section class = "mission">
+      <div class = "flexbox-wrapper2">
+          <div class = "flexbox2col-left">
+            <h2>Physics</h2>
+            <h3>Beginner</h3>
+            <p>To be discussed on Monday </p>
+            <h3>Advanced</h3>
+            <p>This class will be a condensed version of the AP Physics 2 syllabus. There
+            will be a basic introductory high school physics course for those students
+            who are looking to learn Physics which won't have any emphasis on Calculus,
+            as many of our students haven't been introduced to Calculus yet. This is a
+            great course for those preparing for the USAPHO and those just passionate
+            about physics.
+            Topics covered include a brief review of Physics 1 topics, rotational motion, electrostatics, electric
+            circuits, electricity and magnetism, optics, fluids, and thermodynamics.</p>
+            <div class = "button">
+              <input class = "form-button-left" type = "button" value = "Beginner Syllabus"/>
+              <input class = "form-button-right" type = "button" value = "Advanced Syllabus" onclick="location.href = '../files/bio-syll.pdf'"/>
+            </div>
+          </div>
+          <div class = "flexbox2col-right">
+            <img src = "../images/physics.JPG" class = "subject"/>
+          </div>
+      </div>
+      <br/>
+    <div class = "flexbox-wrapper2">
+        <div class = "flexbox2col-right">
+          <img src = "../images/chemistry.JPEG" class = "subject"/>
+        </div>
+        <div class = "flexbox2col-left">
+          <h2>Chemistry</h2>
+          <h3>Beginner</h3>
+          <p>To be discussed on Monday </p>
+          <h3>Advanced</h3>
+          <p>This class's curriculum is based on the book Chemistry: 10th Edition, by Zumdahl and Zumdahl.
+          The Central Science by Brown and Lemay is also used throughout this course. Basic chemistry
+          will be introduced such as basic atomic stucture to introductory students while there are more
+          advanced topics for other students. There will be an emphasis on experiments as real life
+          experimentation forms the basis of all the science we learn!
+          Topics covered include Chemical Reactions, Stoichiometry, Nuclear Chemistry, Equilibrium Chemistry,
+          Acids and Buffers, Thermochemistry, the Periodic Table, Bond types, Gas Laws, and Organic Chemistry.</p>
+            <div class = "button">
+              <input class = "form-button-left" type = "button" value = "Beginner Syllabus"/>
+              <input class = "form-button-right" type = "button" value = "Advanced Syllabus" onclick="location.href = '../files/phys-syll.pdf'"/>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Note need an api key for this to work right!-->
+    <!--Footer-->
+    <footer>
+      <h4><center>For the Students, By the Students</center></h4>
+      <div class = "flexbox-footer-wrapper">
+        <div class = "flexbox4col">
+          <h5>Chapters</h5>
+          <a href = "seattle/seattle-chapter.html">Seattle Chapter</a><br/>
+          <a href = "bay/bay-chapter.html">Bay Area Chapter</a><br/>
+          <a href = "kansas/kansas-chapter.html">Kansas City Chapter</a>
+        </div>
+        <div class = "flexbox4col">
+          <h5>Email</h5>
+          <a href = "mailto:info@scienceinfinity.org">info@scienceinfinity.org</a>
+          <a href = "mailto:bayarea@scienceinfinity.org">bayarea@scienceinfinity.org</a>
+          <a href = "mailto:kansascity@scienceinfinity.org">kansascity@scienceinfinity.org</a>
+        </div>
+        <div class = "flexbox4col">
+          <h5>Volunteers</h5>
+          <a href = "seattle/seattle-volunteers.html">Seattle Volunteers</a><br/>
+          <a href = "bay/bay-volunteers.html">Bay Area Volunteers</a><br/>
+          <a href = "kansas/kansas-volunteers.html">Kansas City Volunteers</a>
+        </div>
+        <div class = "flexbox4col">
+          <h5>Social Media</h5>
+          <a href = "https://www.facebook.com/groups/scienceinfinity/">Seattle Facebook</a><br/>
+          <a href = "https://www.facebook.com/bayareascience/">Bay Area Facebook</a><br/>
+          <a href = "https://www.facebook.com/groups/scienceinfinity/">Kansas City Facebook</a>
+        </div>
+      </div>
+      <br/>
+    <!--To do: create the four column layout seen on the current website-->
+      <p class = "top">Science Infinity is a 501(c)(3) nonprofit organization</p>
+      <p class = "bottom">Copyright &copy; 2020 Science Infinity. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
