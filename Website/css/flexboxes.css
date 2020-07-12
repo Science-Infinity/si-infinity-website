@@ -99,8 +99,25 @@
   margin-bottom: 1em;
 
 }
-.twoequalcol-flexbox
+.flexbox-2eqcol
 {
-  width: 30em;
+  width: 45%;
   display: block;
+  text-align: center;
+  margin: 1em;
+  background-color: #d8ebe9;
+}
+.flexbox-2eqcol img {
+  height: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1em;
+}
+.flexbox-2eqcol .button {
+  margin-bottom: 1em;
+}
+.flexbox-2eqcol p, .flexbox-2eqcol h2, .flexbox-2eqcol h3 {
+  margin-left: 1em;
+  margin-right: 1em;
 }
