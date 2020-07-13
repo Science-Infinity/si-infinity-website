@@ -17,3 +17,8 @@ section.subject {
 section.calendar {
   text-align: center;
 }
+section.title {
+  text-align: center;
+  margin-left: 4em;
+  margin-right: 4em;
+}
