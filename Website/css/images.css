@@ -1,6 +1,12 @@
 img.mission-img {
   float: right;
 }
+
+img.blog {
+  height = 200px;
+  width = 200px;
+}
+
 img {
   max-width: 100%;
   height: auto;
