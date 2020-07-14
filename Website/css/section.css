@@ -17,8 +17,11 @@ section.subject {
 section.calendar {
   text-align: center;
 }
-section.title {
+section.title h1, section.title h2 {
   text-align: center;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+section.mission h2 {
+  text-align: center;
 }

@@ -74,6 +74,10 @@
   display: block;
   background-color: #2B7A78;
 }
+.flexbox3col h2, .flexbox3col h6 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 .flexbox3col h1, .flexbox3col h3  {
   margin-left: 0.5em;
   margin-right: 0.5em;
