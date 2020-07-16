@@ -1,0 +1,30 @@
+.flexbox-wrapper2, .flexbox-wrapper4, .flexbox-footer-wrapper  {
+  flex-direction: row;
+  align-items: stretch;
+}
+.flexbox-2eqcol {
+  width: 45%;
+}
+.flexbox2col-left {
+  width: 60%;
+}
+.flexbox2col-right {
+  width: 30%;
+}
+.flexbox3col {
+  width: 33%;
+}
+.flexbox2col-leftv2 {
+  width: 30$
+  border-left: 0.125em solid black;
+}
+.flexbox2col-rightv2 {
+    widht: 60$;
+}
+.flexbox4col {
+  width: 20%;
+  display: block;
+}
+.form-button-right {
+  margin-left: 2em;
+}
