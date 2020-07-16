@@ -111,6 +111,8 @@
   text-align: center;
   margin: 0;
   background-color: #d8ebe9;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .flexbox-2eqcol img {
   height: 10em;
