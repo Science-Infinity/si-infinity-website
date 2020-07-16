@@ -1,13 +1,13 @@
 .flexbox2col-left {
   color: black;
-  width: 60em;
+  width: 90%;
   margin-left: 4em;
   display: block;
   margin-right: 4em;
 }
 .flexbox2col-right {
   color: black;
-  width: 30em;
+  width: 90%;
   margin-left: 4em;
   margin-right: 4em;
   display: block;
@@ -19,7 +19,8 @@
 .flexbox-wrapper2, .flexbox-wrapper4, .flexbox-footer-wrapper  {
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 .flexbox-footer-wrapper {
   text-align: center;
@@ -29,21 +30,20 @@
 }
 .flexbox2col-rightv2  {
   color: black;
-  width: 60em;
+  width: 90%;
   margin-left: auto;
   margin-right: 2em;
   display: block;
-  border-left: 0.125em solid black;
 }
 .flexbox2col-leftv2 {
   color: black;
-  width: 60em;
+  width: 90$;
   margin-left: 2em;
   margin-right: auto;
   display: block;
 }
 .flexbox4col {
-  width: 20%;
+  width: 90%;
   display: block;
 }
 .flexbox4col a {
@@ -68,7 +68,7 @@
 }
 .flexbox3col {
   color: black;
-  width: 33%;
+  width: 90%;
   margin-left: 0;
   margin-right: 0;
   display: block;
@@ -106,7 +106,7 @@
 }
 .flexbox-2eqcol
 {
-  width: 45%;
+  width: 90%;
   display: block;
   text-align: center;
   margin: 0;
