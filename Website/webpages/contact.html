@@ -100,6 +100,8 @@
     </section>
     <section class = "title">
       <h1>Contact Us</h1>
+    </section>
+    <section>
       <div class = "flexbox-wrapper2">
           <div class = "flexbox2col-left">
             <h2>Best Way to Reach Us</h2>
@@ -119,12 +121,27 @@
     </section>
     <br>
     <section>
-      <form method = "POST" action = "../php/subscribe.php">
-        <p>Name: <input class = "standard" type = "text" name = "Name" size = "20"></p>
-        <p>Email: <input class = "standard" type = "text" name = "Email" size = "20"></p>
-        <p><input type = "submit" value = "Submit" name = "Submit" class = "form-button-left"></p>
+      <form id = "contact-form">
+        <h2>Contact Us</h2>
+        <div class = "data">
+          <label for = "fname">First name:</label><br/>
+          <input class = "standard" type = "text" id = "fname"><br/>
+          <label for = "lname">Last name:</label><br/>
+          <input class = "standard" type = "text" id = "lname"><br/>
+          <label for= "email">Email:</label><br/>
+          <input class = "standard" type = "text" id = "email"><br/>
+          <label for = "comments">Comments:</label><br/>
+          <textarea id = "comments" name="comment" form = "contact-form" rows="8">
+          </textarea>
+          <br/>
+        </div>
+        <div class = "button">
+          <input class = "form-button-left" type = "button" id = "subscribe" value = "Send"/>
+          <input class = "form-button-right" type = "button" id = "reset" value = "Reset"/>
+        </div>
       </form>
     </section>
+    <br/>
     <!--Note need an api key for this to work right!-->
     <!--Footer-->
     <footer>
