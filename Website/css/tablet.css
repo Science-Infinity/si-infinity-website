@@ -7,12 +7,13 @@
 }
 .flexbox2col-left {
   width: 60%;
+  margin-left: 4em;
 }
 .flexbox2col-right {
   width: 30%;
 }
 .flexbox3col {
-  width: 33%;
+  width: 33.3333%;
 }
 .flexbox2col-leftv2 {
   width: 30$

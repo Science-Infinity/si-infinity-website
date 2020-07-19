@@ -15,10 +15,11 @@ footer  {
 }
 footer {
   text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 footer p.top  {
   padding-top: 0.5em;
-  padding-bottom: 0em;
 }
 footer p.bottom {
   padding-top: 0.2em;
@@ -50,7 +51,6 @@ footer .flexbox4col a{
 }
 footer h4 {
   font-style: italic;
-  padding-top: 0.5em;
   color: #17252A;
   font-size: 1.3em;
   font-weight: 450;
