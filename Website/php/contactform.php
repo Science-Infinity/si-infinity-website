@@ -21,7 +21,7 @@
 
         $mail->From = "info@scienceinfinity.org";
         $mail->FromName = "ScienceInfinity Team";
-        $mail->AddAddress ("info@scienceinfinity.com"); // On which email id you want to get the message
+        $mail->AddAddress ("info@scienceinfinity.org"); // On which email id you want to get the message
         $mail->AddCC ($email);
 
         $mail->IsHTML(true);
