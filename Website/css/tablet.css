@@ -12,9 +12,6 @@
 .flexbox2col-right {
   width: 30%;
 }
-.flexbox3col {
-  width: 33.3333%;
-}
 .flexbox2col-leftv2 {
   width: 30$
   border-left: 0.125em solid black;
@@ -22,10 +19,11 @@
 .flexbox2col-rightv2 {
     widht: 60$;
 }
-.flexbox4col {
-  width: 20%;
-  display: block;
-}
 .form-button-right {
   margin-left: 2em;
+}
+.flexbox2col-eq-nobg {
+  width: 50%;
+  padding-left: 2em;
+  padding-right: 2em;
 }

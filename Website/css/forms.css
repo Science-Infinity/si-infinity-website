@@ -27,3 +27,8 @@ textarea  {
 form {
   margin-left: 4em;
 }
+.flexbox3col .form-button-left {
+  margin-top: 0em;
+  position: relative;
+  bottom: 2%;
+}

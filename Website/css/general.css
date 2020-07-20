@@ -13,7 +13,8 @@
 }
 .notice {
   text-align: center;
-  color: #ff424f;
+  /*color: #ff424f;*/
+  color: #cccccc;
   margin-left: 2em;
   margin-right: 2em;
   background-color: black;

@@ -1,1 +1,7 @@
-
+.flexbox3col {
+  width: 33.3333%;
+}
+.flexbox4col {
+  width: 20%;
+  display: block;
+}

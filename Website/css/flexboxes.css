@@ -28,18 +28,9 @@
 .flexbox-wrapper4 {
   flex-wrap: wrap;
 }
-.flexbox2col-rightv2  {
+.flexbox2col-eq-nobg {
   color: black;
   width: 90%;
-  margin-left: auto;
-  margin-right: 2em;
-  display: block;
-}
-.flexbox2col-leftv2 {
-  color: black;
-  width: 90$;
-  margin-left: 2em;
-  margin-right: auto;
   display: block;
 }
 .flexbox4col {
@@ -71,8 +62,8 @@
   width: 90%;
   margin-left: 0;
   margin-right: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   display: block;
   background-color: #2B7A78;
   padding-left: 1em;
@@ -121,6 +112,6 @@
   display: block;
   margin-top: 1em;
 }
-.flexbox-2eqcol .button {
-  margin-bottom: 1em;
+.flexbox3col .form-button-left {
+  margin-top: 1em;
 }

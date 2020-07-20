@@ -23,6 +23,7 @@ footer p.top  {
 }
 footer p.bottom {
   padding-top: 0.2em;
+  margin-bottom: 0px;
 }
 footer button {
   padding: 14px 16px;
