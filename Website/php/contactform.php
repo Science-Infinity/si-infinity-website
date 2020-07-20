@@ -12,16 +12,16 @@
         $mail = new PHPMailer();
 
         $mail->IsSMTP();
-        $mail->Host = "websapex.com"; // Your Domain Name
+        $mail->Host = "test.scienceinfinity.org"; // Your Domain Name
 
-        $mail->SMTPAuth = true;
-        $mail->Port = 587;
-        $mail->Username = "info@websapex.com"; // Your Email ID
-        $mail->Password = "DT~-RQyJlaFV"; // Password of your email id
+        $mail->SMTPAuth = false;
+        $mail->Port = 25;
+        $mail->Username = "info@scienceinfinity.org"; // Your Email ID
+        $mail->Password = "Blue.Water1"; // Password of your email id
 
-        $mail->From = "info@websapex.com";
-        $mail->FromName = "WebsApex Team";
-        $mail->AddAddress ("info@websapex.com"); // On which email id you want to get the message
+        $mail->From = "info@scienceinfinity.org";
+        $mail->FromName = "ScienceInfinity Team";
+        $mail->AddAddress ("info@scienceinfinity.com"); // On which email id you want to get the message
         $mail->AddCC ($email);
 
         $mail->IsHTML(true);
