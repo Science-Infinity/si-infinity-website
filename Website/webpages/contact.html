@@ -14,6 +14,7 @@
     <link rel = "stylesheet" href = "../css/forms.css"/>
     <link rel = "stylesheet" href = "../css/flexboxes.css"/>
     <link rel = "stylesheet" href = "../css/footer.css"/>
+    <link rel = "stylesheet" href = "../php/contactform.php"/>
     <!--Best way to build media queries is set the base case for mobile, then move up-->
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:720px)" href="../css/tablet.css"/>
     <link rel="stylesheet" type="text/css" media="only screen and (min-width:900px)" href="../css/computer-large.css"/>
@@ -118,7 +119,14 @@
       </div>
     </section>
     <section>
-      <form id = "contact-form">
+      <form class = "contact-form" action = "contactform.php" method = "post">
+        <input type = "text" name = "name" placeholder = "Full name">
+        <input type = "text" name = "mail" placeholder = "Your e-mail">
+        <input type = "text" name = "subject" placeholder = "Subject">
+        <textarea name="message" placeholer = "Message"></textarea>
+        <button type = "submit" name = "submit">Send Mail</button>
+      </form>
+      <!--<form id = "contact-form">
         <h2>Contact Us</h2>
         <div class = "data">
           <label for = "fname">First name:</label><br/>
@@ -135,7 +143,7 @@
           <input class = "form-button-left" type = "button" id = "subscribe" value = "Send"/>
           <input class = "form-button-right" type = "button" id = "reset" value = "Reset"/>
         </div>
-      </form>
+      </form>-->
     </section>
     <!--Note need an api key for this to work right!-->
     <!--Footer-->
