@@ -119,12 +119,12 @@
       </div>
     </section>
     <section>
-      <form class = "contact-form" action = "../php/contactform.php" method = "post">
-        <input type = "text" name = "name" placeholder = "Full name">
-        <input type = "text" name = "mail" placeholder = "Your e-mail">
-        <input type = "text" name = "subject" placeholder = "Subject">
-        <textarea name="message" placeholer = "Message"></textarea>
-        <button type = "submit" name = "submit">Send Mail</button>
+      <form role="form" action="../php/contactform.php" method="post">
+      <input name="name" required="required" type="text" placeholder="Enter Your Name" />
+      <input name="email" required="required" type="email" placeholder="Email ID"/>
+      <input name="mobile" required="required" type="text" placeholder="Enter Mobile No"/>
+      <textarea name="message" placeholder="Enter Any Message"></textarea>
+      <input name="submit" type="submit" value="Send a Mail" />
       </form>
       <!--<form id = "contact-form">
         <h2>Contact Us</h2>
