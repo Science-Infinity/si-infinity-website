@@ -44,6 +44,6 @@ h6 {
   font-size: 1.6em;
 }
 .carousel-caption d-none d-md-block {
-  background-color: gray;
+  background-color: var(--carousel-caption-text-color);
   opacity: 0.5;
 }

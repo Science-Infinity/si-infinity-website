@@ -1,8 +1,5 @@
-section {
-  background-color: #DEF2F1;
-}
 section.important-bg {
-  background-color: black;
+  background-color: var(--notice-bg-color);
 }
 section.subject, section.left-oriented {
   margin-left: 4em;

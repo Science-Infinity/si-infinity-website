@@ -1,5 +1,5 @@
 p.top {
-  border-top: 0.125em solid #17252A;
+  border-top: 0.125em solid var(--footer-text-color);
 }
 footer img {
   display: block;
@@ -10,8 +10,8 @@ footer h5 {
   font-weight: 250;
 }
 footer  {
-  background-color: #2B7A78;
-  color: #17252A;
+  background-color: var(--page-footer-color);
+  color: var(--footer-text-color);
 }
 footer {
   text-align: center;
@@ -29,10 +29,10 @@ footer button {
   padding: 14px 16px;
   color: black;
   border-radius: 0.5em;
-  border: 0.125em solid #17252A;
+  border: 0.125em solid var(--button-color);
 }
 footer button:hover {
-  background-color: #17252A;
+  background-color: var(--button-color);
   color: white;
 }
 footer img {
@@ -48,11 +48,11 @@ footer:after {
   clear: both;
 }
 footer .flexbox4col a{
-  color: #17252A;
+  color: var(--footer-text-color);
 }
 footer h4 {
   font-style: italic;
-  color: #17252A;
+  color: var(--footer-text-color);
   font-size: 1.3em;
   font-weight: 450;
 }

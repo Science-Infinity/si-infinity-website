@@ -12,5 +12,8 @@ nav img {
   text-decoration: none;
 }
 .navbar-nav .nav-item a.nav-link {
-  color: #cccccc;
+  color: var(--page-navbar-text-color);
+}
+nav {
+  background-color: var(--page-navbar-color);
 }
