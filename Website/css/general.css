@@ -75,6 +75,9 @@ body {
   --footer-text-color: #17252A;
   --normal-flexbox-bg-color: #2B7A78;
 }
+img.img-fluid:hover {
+  opacity: 0.5;
+}
 /*
 :root {
   --page-bg-color: #DEF2F1;
