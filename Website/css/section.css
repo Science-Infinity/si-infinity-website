@@ -15,7 +15,7 @@ section.calendar {
 section.calendar iframe {
   width: 80%;
 }
-section.title h1, section.title h2 {
+section.title{
   text-align: center;
   margin-left: 3em;
   margin-right: 3em;
