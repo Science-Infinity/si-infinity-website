@@ -26,6 +26,9 @@ h2 {
   font-weight: 300;
   font-style: italic:
 }
+h2.subtitle {
+  margin-left: 3em;
+}
 h3 {
   font-size: 2em;
   font-weight: 275;
