@@ -6,8 +6,11 @@ h1.title  {
   font-weight: 800;
 }
 .notice h4  {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 200;
+}
+.notice h6 {
+  font-size: 1em;
 }
 
 .title h1 {
