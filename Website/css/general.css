@@ -63,6 +63,20 @@ body {
 }
 
 :root {
+  --page-bg-color: #d8f2f6;
+  --page-navbar-text-color: #ecf7f9;
+  --page-navbar-color: #2B7A78;
+  --page-footer-color: #45a29e;
+  --button-color: #0b0c10;
+  --side-menu-color: #45A29E;
+  --equal-flexbox-color: #b5d8f2;
+  --notice-bg-color: black;
+  --carousel-caption-text-color: gray;
+  --footer-text-color: #17252A;
+  --normal-flexbox-bg-color: #2B7A78;
+}
+/*
+:root {
   --page-bg-color: #DEF2F1;
   --page-navbar-text-color: #cccccc;
   --page-navbar-color: #2B7A78;
@@ -75,6 +89,7 @@ body {
   --footer-text-color: #17252A;
   --normal-flexbox-bg-color: #2B7A78;
 }
+*/
 /*
 Black blue emphasis color scheme
 --page-bg-color: #45A29E;
