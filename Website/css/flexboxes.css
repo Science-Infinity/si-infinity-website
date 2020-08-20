@@ -66,8 +66,8 @@
   padding-bottom: 1em;
   display: block;
   background-color: var(--normal-flexbox-bg-color);
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 #section4-sides {
   background-color: var(--side-menu-color);

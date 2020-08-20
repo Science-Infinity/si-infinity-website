@@ -53,3 +53,9 @@ h6 {
   background-color: var(--carousel-caption-text-color);
   opacity: 0.5;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gudea", sans-serif;
+}
+p {
+  font-family: "Lato", sans-serif;
+}
