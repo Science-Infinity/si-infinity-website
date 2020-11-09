@@ -12,3 +12,6 @@ img {
   height: auto;
   width: auto;
 }
+img.navbar-image {
+  width: 5%;
+}
